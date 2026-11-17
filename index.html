@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c35">
+  <meta name="description" content="Discover global products and request sourcing support with Rwanda Global Market.">
+  <title>RWANDA GLOBAL MARKET | Shop Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">R</span><span>RWANDA <b>GLOBAL MARKET</b><small>SHOP SMART. SOURCE GLOBAL.</small></span></a>
+    <nav><a href="#shop" data-i18n="navShop">Shop</a><a href="#services" data-i18n="navServices">Services</a><a href="#how" data-i18n="navHow">How it works</a></nav>
+    <div class="top-actions"><select id="language" aria-label="Language"><option value="en">EN</option><option value="rw">RW</option><option value="fr">FR</option></select><a class="nav-cta" href="#source" data-i18n="getQuote">Get a quote</a><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span><span data-i18n="eyebrow">YOUR GATEWAY TO GLOBAL COMMERCE</span></div>
+        <h1 data-i18n="heroTitle">The world’s marketplace.<br><em>Connected to you.</em></h1>
+        <p data-i18n="heroText">Discover products from global suppliers, explore trusted shopping links, or let us help source the right product for your needs.</p>
+        <div class="hero-actions"><a class="btn primary" href="#shop" data-i18n="explore">Explore products <span>↗</span></a><a class="btn secondary" href="#source" data-i18n="sourceProduct">Source a product</a></div>
+        <div class="hero-proof"><span>✓ <span data-i18n="transparent">Transparent sourcing</span></span><span>✓ <span data-i18n="global">Worldwide discovery</span></span><span>✓ <span data-i18n="support">Personal support</span></span></div>
+      </div>
+      <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="globe">🌐</div><div class="float-card card-a"><span>📦</span><div><b data-i18n="globalProducts">Global products</b><small data-i18n="discoverSuppliers">Discover suppliers</small></div></div><div class="float-card card-b"><span>✈️</span><div><b data-i18n="sourcingSupport">Sourcing support</b><small data-i18n="fromRequest">From request to delivery</small></div></div><div class="hero-stamp">RG<span>M</span></div></div>
+    </section>
+
+    <section class="trust-strip"><div><b>01</b><span data-i18n="curated">Curated discovery</span></div><div><b>02</b><span data-i18n="affiliate">Tracked affiliate shopping</span></div><div><b>03</b><span data-i18n="assisted">Assisted sourcing</span></div><div><b>04</b><span data-i18n="worldwide">Worldwide ambition</span></div></section>
+
+    <section class="section" id="shop">
+      <div class="section-heading"><div><div class="eyebrow dark"><span></span><span data-i18n="catalogue">THE DISCOVERY CATALOGUE</span></div><h2 data-i18n="shopTitle">Find what moves you.</h2><p data-i18n="shopIntro">Explore sample categories. Product availability and final prices are confirmed by the supplier.</p></div><div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search products..." data-i18n-placeholder="searchPlaceholder"></div></div>
+      <div class="filters" id="filters"><button class="filter active" data-category="all" data-i18n="all">All products</button><button class="filter" data-category="electronics" data-i18n="electronics">Electronics</button><button class="filter" data-category="home" data-i18n="home">Home & living</button><button class="filter" data-category="fashion" data-i18n="fashion">Fashion</button><button class="filter" data-category="tools" data-i18n="tools">Tools & equipment</button></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalogue-note" data-i18n="catalogueNote">Demo catalogue: these are illustrative listings, not verified offers or live Alibaba inventory. Use your approved tracked affiliate URLs before publishing products.</p>
+    </section>
+
+    <section class="service-band" id="services"><div><div class="eyebrow"><span></span><span data-i18n="beyondShopping">MORE THAN SHOPPING</span></div><h2 data-i18n="servicesTitle">A smarter way to source globally.</h2><p data-i18n="servicesText">Need a specific item, bulk quantity, or supplier comparison? Tell us what you need and we’ll help you plan the next step.</p><a class="btn light" href="#source" data-i18n="requestSourcing">Request sourcing support ↗</a></div><div class="service-points"><article><span>🔎</span><b data-i18n="supplierDiscovery">Supplier discovery</b><small data-i18n="supplierDiscoveryText">Shortlist potential suppliers and compare details.</small></article><article><span>📋</span><b data-i18n="quotePlanning">Quote planning</b><small data-i18n="quotePlanningText">Clarify quantity, specifications and destination.</small></article><article><span>🌍</span><b data-i18n="deliveryPlanning">Delivery planning</b><small data-i18n="deliveryPlanningText">Understand shipping, customs and landed costs.</small></article></div></section>
+
+    <section class="section steps" id="how"><div class="eyebrow dark"><span></span><span data-i18n="simpleProcess">A SIMPLE PROCESS</span></div><h2 data-i18n="howTitle">From discovery to decision.</h2><div class="step-grid"><article><b>01</b><h3 data-i18n="step1Title">Discover</h3><p data-i18n="step1Text">Browse product ideas and categories.</p></article><article><b>02</b><h3 data-i18n="step2Title">Compare</h3><p data-i18n="step2Text">Open supplier details and review the offer.</p></article><article><b>03</b><h3 data-i18n="step3Title">Connect</h3><p data-i18n="step3Text">Shop through an approved tracked link or request sourcing help.</p></article><article><b>04</b><h3 data-i18n="step4Title">Confirm</h3><p data-i18n="step4Text">Confirm price, payment, shipping and delivery directly before purchase.</p></article></div></section>
+
+    <section class="source-section" id="source"><div class="source-copy"><div class="eyebrow"><span></span><span data-i18n="personalSourcing">PERSONAL SOURCING DESK</span></div><h2 data-i18n="sourceTitle">Tell us what you’re looking for.</h2><p data-i18n="sourceText">Share the product, quantity and destination. This request does not place an order or take payment.</p><div class="source-assurance">🔒 <span data-i18n="privacyNote">Only share the information needed to prepare your request.</span></div></div>
+      <form id="sourceForm" class="source-form"><div class="field-row"><label><span data-i18n="yourName">Your name</span><input name="name" required placeholder="Full name"></label><label><span data-i18n="email">Email address</span><input name="email" type="email" required placeholder="you@example.com"></label></div><label><span data-i18n="productNeeded">Product you need</span><input name="product" required placeholder="e.g. solar panels, laptops..."></label><div class="field-row"><label><span data-i18n="quantity">Quantity</span><input name="quantity" placeholder="e.g. 20 pieces"></label><label><span data-i18n="destination">Destination country</span><input name="destination" required placeholder="e.g. Rwanda"></label></div><label><span data-i18n="details">Additional details</span><textarea name="details" rows="3" placeholder="Specifications, budget range, preferred delivery..."></textarea></label><button class="btn primary full" type="submit" data-i18n="sendRequest">Prepare sourcing request ↗</button><p class="form-note" id="formNote" aria-live="polite"></p></form>
+    </section>
+  </main>
+
+  <footer><div class="footer-main"><a class="brand footer-brand" href="#"><span class="brand-mark">R</span><span>RWANDA <b>GLOBAL MARKET</b><small>SHOP SMART. SOURCE GLOBAL.</small></span></a><p data-i18n="footerText">Independent product discovery and sourcing support for a connected world.</p><div class="footer-links"><a href="#shop" data-i18n="navShop">Shop</a><a href="#services" data-i18n="navServices">Services</a><a href="#source" data-i18n="contact">Contact</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> RWANDA GLOBAL MARKET</span><span data-i18n="disclosure">Some links may be affiliate links. We may earn a commission at no extra cost to you.</span></div><p class="legal" data-i18n="legal">Supplier listings, prices, shipping, customs and product quality must be independently verified. We are not Alibaba.com and do not claim to represent Alibaba.</p></footer>
+  <script src="/config.js"></script><script src="/app.js"></script>
+</body></html>
